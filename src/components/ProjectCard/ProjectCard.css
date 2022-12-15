@@ -1,0 +1,62 @@
+.card{
+    border: solid #ABB2BF 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 18.75rem;
+}
+
+.card img{
+    width: 100%;
+    height: 10rem;
+}
+
+.card-subtitle{
+    width: 100%;
+    border-bottom: #ABB2BF 1px solid;
+    padding: .5rem;
+    color: #ABB2BF;
+    font-size: .9rem;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.card-desc{
+    color: #ABB2BF;
+    font-size: .9rem;
+}
+
+.card-btn{
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    width: 100%;
+}
+
+.live-btn{
+    border: solid #C778DD 1px;
+    padding: 3px 5px;
+    width: 6.25rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.repository-btn{
+    border: solid #ABB2BF 1px;
+    padding: 3px 5px;
+    width: 9rem;
+    text-align: center;
+    color: #ABB2BF;
+    font-size: 1rem;
+}

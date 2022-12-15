@@ -1,0 +1,29 @@
+section{
+    height: 100%;
+    margin: 6rem 0;
+}
+
+.projects-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.projects-header h2{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.projects-header .texts{
+    display: flex;
+    align-items: center;
+    gap: 2.1875rem;
+}
+
+.projects-cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

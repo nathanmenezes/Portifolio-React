@@ -1,0 +1,16 @@
+#line{
+    width: 40rem;
+    border-bottom: solid #C778DD 1px;
+    height: 1px;
+}
+
+.texts{
+    display: flex;
+    align-items: center;
+    
+}
+
+.texts h2{
+    font-weight: 400;
+    font-size: 26px;
+}
